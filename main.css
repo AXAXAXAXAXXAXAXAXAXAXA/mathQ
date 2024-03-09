@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet');
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'montserrat', sans-serif;
+    text-align: center;
+    position: relative;
+}
+.nPUMEP{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 20%;
+}
+.BAPUAHT{
+    font-size: 20px;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    user-select: none;
+}
+.BAPUAHT:hover{
+    background: #eaeaea;
+}
+
+.BCE_BAPUAHTbl{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    cursor: pointer;
+}
+.start_button{
+    font-size: 30px;
+    padding: .5em;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.start_button:hover{
+    background: #eaeaea;
+}
+.main_ecran{
+    display: none;
+    margin-bottom: 10px;
+}
+.start_ecran{
+        display: flex;
+}
+.con{
+    width: 100vw;
+    height: 100vw;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
